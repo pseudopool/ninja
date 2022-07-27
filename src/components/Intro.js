@@ -8,7 +8,7 @@ function Intro({setLogin}) {
 
     return (
         <div className="start-button-container">
-            <img className="ninja-img" alt="ninja" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/325/ninja_1f977.png"></img>
+            <img className="ninja-img" alt="ninja" src="https://github.com/pseudopool/ninja/blob/master/ninja.png?raw=true"></img>
             <p className="intro-txt">
                 NINJA 
                 WORRY 
