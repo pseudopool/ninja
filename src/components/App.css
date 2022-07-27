@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'DungGeunMo';
+    background-color: rgb(24, 16, 59);
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.display-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-txt {
+    color: white;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.start-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin: 10px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    width: 6rem;
+    height: 2.5rem;
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+button:active {
+    transform: scale(90%);
+}
+
+.worries-title {
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textarea-box {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    line-height: 1rem;
+}
+
+.worries-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-title {
+    color: white;
+    margin: 10px;
+}
+
+.worry-container {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.worry-content {
+    background-color: antiquewhite;
+    width: 20rem;
+    text-align: center;
+}
+
+.delete-button {
+    background-color: yellow;
+}
+
+.delete-button:hover {
+    background-color: rgb(225, 225, 25);
+}
+
+.goBackButton {
+    background-color: brown;
+    color: white;
+}
+
+.goBackButton:hover {
+    background-color: red;
+}
